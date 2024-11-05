@@ -75,8 +75,7 @@ To successfully migrate the HCO_DEMOCONTENT sample delivery unit using the SAP H
 	<img src="images\destination2.png" width="600" height="400">
 </p>
 
-5. Connect SAP Cloud Connector to the target SAP HANA database which is used for XS Advanced application's database artifacts. The SAP Cloud Connector enables you to connect SAP BTP to XS Advanced and the underlying SAP HANA on-premise database, for more information on the setup required, follow [Connect SAP Business Application Studio to XS Advanced](
-https://help.sap.com/docs/SAP_HANA_PLATFORM/cf8b4c5847374960a68b55cb86eae013/d1e4372023054dc8a92dac8118ee0088.html?state=DRAFT&version=2.0.08).
+5. Connect SAP Cloud Connector to the target SAP HANA database which is used for XS Advanced application's database artifacts. The SAP Cloud Connector enables you to connect SAP BTP to XS Advanced and the underlying SAP HANA on-premise database, for more information on the setup required, follow [Connect SAP Business Application Studio to XS Advanced](https://help.sap.com/docs/SAP_HANA_PLATFORM/cf8b4c5847374960a68b55cb86eae013/d1e4372023054dc8a92dac8118ee0088.html?state=DRAFT&version=2.0.08).
 
 6. In the SAP Business Technology Platform (BTP) Cloud Foundry account where the SAP Business Application Studio (BAS) subscription is created, select 'Cloud to On-Prem' and add a mapping with the following details:  
 	
