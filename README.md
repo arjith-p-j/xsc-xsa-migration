@@ -120,7 +120,7 @@ And the following additional properties:
 	<img src="images\destination4.png" width="600" height="400">
 </p>
 
-2. Add the SAP BTP destination required to connect the SAP BTP Cockpit to the target XS advanced SAP HANA database also. To do that please refer to (Connect SAP Business Application Studio to XS Advanced)[https://help.sap.com/docs/SAP_HANA_PLATFORM/cf8b4c5847374960a68b55cb86eae013/d1e4372023054dc8a92dac8118ee0088.html?state=DRAFT&version=2.0.08].
+2. Add the SAP BTP destination required to connect the SAP BTP Cockpit to the target XS advanced SAP HANA database also. To do that please refer to [Connect SAP Business Application Studio to XS Advanced](https://help.sap.com/docs/SAP_HANA_PLATFORM/cf8b4c5847374960a68b55cb86eae013/d1e4372023054dc8a92dac8118ee0088.html?state=DRAFT&version=2.0.08).
 
 ## Step-3: Create a SAP Business Application Studio Devspace with the SAP HANA Application Migration Assistant Extension installed  
 	
