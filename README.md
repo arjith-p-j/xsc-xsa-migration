@@ -1,6 +1,6 @@
 # Migration of SAP HANA XS Classic To SAP HANA XS Advanced Using SAP HANA Application Migration Assistant
 
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/xsc-cap-migration)](https://api.reuse.software/info/github.com/SAP-samples/xsc-cap-migration)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/xsc-xsa-migration)](https://api.reuse.software/info/github.com/SAP-samples/xsc-xsa-migration)
 
 ## Description
 The SAP HANA Application Migration Assistant allows users to migrate SAP HANA XS Classic application which is packaged as a Delivery Unit or a Package to SAP HANA XS Advanced Model along with migration of the deprecated SAP XSJS library to SAP Async-XSJS library. 
