@@ -214,9 +214,9 @@ In the SAP HANA Application Migration Assistant, the UI provides a drop down wit
 <img width="545" alt="end" src="images\stagedMigration1.png">
 </p>
 
-12. If you choose "No", no further steps are required. Click "Finish" button.
+**Staged Migration** is used when there are objects in our container which have dependent objects in other hdi containers or external schemas. In the case of staged migration, separate hdbsynonyms, hdbsynonymconfigs and hdbgrants will be created for each external hdi container and external schema, the objects in our application depend upon. If all the objects required for deployment are present in our container, a **non-staged migration** would suffice.
 
-13. If you choose "Yes", the prompt to browse configuration file must be visible. Choose the appropriate configuration file from the devspace. Choose a valid json file for the configuration file in the devspace. Once the valid json file is selected, we should be able to see the preview of the configuration file. Click "Finish" button.
+12. If you choose "Yes", the prompt to browse configuration file must be visible. Choose the valid json file from the devspace. Once the valid json file is selected, we should be able to see the preview of the configuration file. Click "Finish" button.
 
 <p align="center">
 <img width="545" alt="end" src="images\stagedMigration3.png">
@@ -226,7 +226,7 @@ In the SAP HANA Application Migration Assistant, the UI provides a drop down wit
 <img width="545" alt="end" src="images\stagedMigration4.png">
 </p>
 
-14. Once you see the pop-up notification at the bottom right corner of your screen, it means that the migration process is underway. This notification will keep you updated on all the steps that follow. At the end of the process, a XS Advanced project with the revised database artifacts will be created. Additionally, a `report.html` file will be generated within the project. This file contains detailed information about your project's migration.
+13. Once you see the pop-up notification at the bottom right corner of your screen, it means that the migration process is underway. This notification will keep you updated on all the steps that follow. At the end of the process, a XS Advanced project with the revised database artifacts will be created. Additionally, a `report.html` file will be generated within the project. This file contains detailed information about your project's migration.
 
 <p align="center">
 <img width="545" alt="end" src="images\end.png">
